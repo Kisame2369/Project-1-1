@@ -34,7 +34,7 @@ a {
 .navigation-link {
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42
 }
@@ -46,16 +46,16 @@ a {
 .contacts-link {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455
 }
 
 .navigation-link:focus,
 .navigation-link:hover,
-.address-link:focus,
-.address-link:hover {
-    color: #404BBF;
+.contacts-link:focus,
+.contacts-link:hover {
+    color: #404bbf
 }
 
 .first-section {
@@ -100,7 +100,7 @@ h2 {
 h3 {
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
@@ -108,7 +108,14 @@ h3 {
 p {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.second-section-list .second-section-list-text {
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
 }
@@ -137,6 +144,6 @@ p {
     color: #F4F4FD;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
